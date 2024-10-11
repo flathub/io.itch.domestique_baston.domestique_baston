@@ -23,4 +23,4 @@ modules:
     sources:
       - type: archive
         url: 'http://www.ferdiferdi.com/db/DB_LIN.zip'
-        sha256: 'e43d9911c40452c6b2f2238eb40341c33ed62f4f3ba8080d72bc8411a61f8c79'
+        sha256: '7a5fc2fc30b401d33fea33e48db446d76cfb0426300019997fb71523905a07dc'

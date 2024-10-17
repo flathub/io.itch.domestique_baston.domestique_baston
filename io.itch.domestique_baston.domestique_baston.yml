@@ -25,11 +25,11 @@ modules:
         url: 'https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/releases/download/v1.1/db.pck'
         sha256: '45d2a88235e894a54b4f95134166d14c5b4f5b2f3cebf0e4d0a9e67e58b96675'
       - type: file
-        url: 'https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/io.github.domestiquebaston.domestique_baston.desktop'
-        sha256: '8523c9d863da91529c7d1a9e4bc8e04728aa475aa6f41ad9f49a602719aeb628'
+        url: 'https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/io.itch.domestique_baston.domestique_baston.desktop'
+        sha256: '286ae851ee034cb90b52033c2442afddd87f082e1db93689164e49ae0e0b3802'
       - type: file
-        url: 'https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/io.github.domestiquebaston.domestique_baston.metainfo.xml'
-        sha256: '63a54b2063bc2e8d57a39068590baf5e12004ed650c103c5d4270894bf8db12d'
+        url: 'https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/io.itch.domestique_baston.domestique_baston.metainfo.xml'
+        sha256: '6d2af0c40572ba7b46b2b5b5b73f3350f288043f5a63826dac84560b3671acaf'
       - type: file
         url: 'https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/icon256.png'
         sha256: '05969263f0a3339ca79bf7d2c12ac43fb04d5d269f6b2e309c51293a7060878c'

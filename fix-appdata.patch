@@ -1,0 +1,67 @@
+From 66a200d68123ccd24532ba5c330ef7e9b5152b8a Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sat, 30 May 2026 12:40:43 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+- Fix missing screenshots
+- Add bugtracker and vcs-browser URLs
+- Fix license information
+
+> P.S. Assets are published under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence.
+> Code is published under the GNU General Public License (GPL) v3.0.
+
+Source: https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON#domestique-baston
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ io.itch.domestique_baston.domestique_baston.metainfo.xml | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+diff --git a/io.itch.domestique_baston.domestique_baston.metainfo.xml b/io.itch.domestique_baston.domestique_baston.metainfo.xml
+index 70d3f61..9f6c6ea 100644
+--- a/io.itch.domestique_baston.domestique_baston.metainfo.xml
++++ b/io.itch.domestique_baston.domestique_baston.metainfo.xml
+@@ -3,12 +3,14 @@
+ <component type="desktop-application">
+   <id>io.itch.domestique_baston.domestique_baston</id>
+   <name>Domestique Baston</name>
+-  <project_license>GPL-3.0</project_license>
++  <project_license>GPL-3.0 and CC-BY-NC-SA-4.0</project_license>
+   <metadata_license>CC-BY-SA-4.0</metadata_license>
+   <releases>
+     <release version="1.1" date="2023-05-05"/>
+   </releases>
+   <url type="homepage">https://domestique-baston.itch.io/domestique-baston</url>
++  <url type="bugtracker">https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/issues</url>
++  <url type="vcs-browser">https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON</url>
+   <content_rating type="oars-1.0">
+     <content_attribute id="language-humor">mild</content_attribute>
+   </content_rating>
+@@ -52,19 +54,19 @@
+   </description>
+   <screenshots>
+     <screenshot>
+-      <image type="source" width="915" height="515">https://www.ferdiferdi.com/db/01.png</image>
++      <image type="source" width="915" height="515">https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9pdGNoL2RvbWVzdGlxdWVfYmFzdG9uLmRvbWVzdGlxdWVfYmFzdG9uL2VlYTZmMmQxOWM4YTUxNzUwYmRhZDIzOGQzNDliODQ3L3NjcmVlbnNob3RzL2ltYWdlLTFfb3JpZy5wbmc</image>
+     </screenshot>
+     <screenshot type="default">
+-      <image type="source" width="915" height="515">https://www.ferdiferdi.com/db/02.png</image>
++      <image type="source" width="915" height="515">https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9pdGNoL2RvbWVzdGlxdWVfYmFzdG9uLmRvbWVzdGlxdWVfYmFzdG9uL2VlYTZmMmQxOWM4YTUxNzUwYmRhZDIzOGQzNDliODQ3L3NjcmVlbnNob3RzL2ltYWdlLTJfb3JpZy5wbmc</image>
+     </screenshot>
+     <screenshot>
+-      <image type="source" width="915" height="515">https://www.ferdiferdi.com/db/03.png</image>
++      <image type="source" width="915" height="515">https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9pdGNoL2RvbWVzdGlxdWVfYmFzdG9uLmRvbWVzdGlxdWVfYmFzdG9uL2VlYTZmMmQxOWM4YTUxNzUwYmRhZDIzOGQzNDliODQ3L3NjcmVlbnNob3RzL2ltYWdlLTNfb3JpZy5wbmc</image>
+     </screenshot>
+     <screenshot>
+-      <image type="source" width="915" height="515">https://www.ferdiferdi.com/db/04.png</image>
++      <image type="source" width="915" height="515">https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9pdGNoL2RvbWVzdGlxdWVfYmFzdG9uLmRvbWVzdGlxdWVfYmFzdG9uL2VlYTZmMmQxOWM4YTUxNzUwYmRhZDIzOGQzNDliODQ3L3NjcmVlbnNob3RzL2ltYWdlLTRfb3JpZy5wbmc</image>
+     </screenshot>
+     <screenshot>
+-      <image type="source" width="915" height="515">https://www.ferdiferdi.com/db/05.png</image>
++      <image type="source" width="915" height="515">https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9pdGNoL2RvbWVzdGlxdWVfYmFzdG9uLmRvbWVzdGlxdWVfYmFzdG9uL2VlYTZmMmQxOWM4YTUxNzUwYmRhZDIzOGQzNDliODQ3L3NjcmVlbnNob3RzL2ltYWdlLTVfb3JpZy5wbmc</image>
+     </screenshot>
+   </screenshots>
+ </component>
+--
+libgit2 1.7.2
+

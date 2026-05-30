@@ -30,6 +30,8 @@ modules:
       - type: file
         url: https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/io.itch.domestique_baston.domestique_baston.metainfo.xml
         sha256: 6d2af0c40572ba7b46b2b5b5b73f3350f288043f5a63826dac84560b3671acaf
+      - type: patch
+        path: fix-appdata.patch
       - type: file
         url: https://github.com/DomestiqueBaston/DOMESTIQUE_BASTON/raw/refs/tags/v1.1/icon256.png
         sha256: 05969263f0a3339ca79bf7d2c12ac43fb04d5d269f6b2e309c51293a7060878c

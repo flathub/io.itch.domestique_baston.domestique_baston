@@ -13,7 +13,7 @@ cleanup:
   - /lib/pkgconfig
   - '*.a'
 modules:
-  - godot-3.5.json
+  - godot-3.5.yaml
   - name: domestique_baston
     buildsystem: simple
     build-commands:
